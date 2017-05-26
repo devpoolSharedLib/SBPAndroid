@@ -1,0 +1,16 @@
+*.iml
+.gradle
+*.DS_Store
+/local.properties
+.idea/*
+projectFilesBackup/*
+/build
+/captures
+keystore.properties
+Key_Store/
+app/app-release.apk
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+settings.gradle

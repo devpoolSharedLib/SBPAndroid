@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBorder">#33000000</color>
+    <color name="colorTopicSpace">#00000000</color>
+    <color name="colorLayoutBg">#20000000</color>
+    <color name="colorTextTitle">#30000000</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="colorDarkGreen">#197319</color>
+
+    <color name="colorButton">#8c000000</color>
+    <color name="colorLikeButton">#0080ff</color>
+    <color name="colorUnreadTopic">#cecece</color>
+    <color name="colorDateTime">#706C6C</color>
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SBP</string>
+    <string name="host_topic">มาแข่งฟุตบอลกัน ด่วน!!!</string>
+    <string name="host_username">Mario</string>
+    <string name="host_date">16/03/2016 15:30:30</string>
+    <string name="comment_username_1">Iron Man</string>
+    <string name="comment_date_1">16/03/2016 15:47:20</string>
+    <string name="btn_post">Post</string>
+    <string name="facebook_app_id">132325190504041</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_new_topic">New Topic</string>
+    <string name="save_setting">Save</string>
+    <string name="action_comment">Comment</string>
+    <string name="preference_key">gosoft.devpool.bps</string>
+    <string name="activation_token">Please enter the invitation code.</string>
+    <string name="forget_pass">Forget Password</string>
+    <string name="forget_pass_description">Please insert e-mail for reset password.</string>
+    <string name="setting_avatar">Setting Avatar</string>
+    <string name="select_avatar">Select Avatar</string>
+    <string name="change_avatar_name">Change Avatar Name</string>
+    <string name="terms_and_policies">Terms and Policies</string>
+    <string name="poll_activity">Poll Activity</string>
+    <string name="drawable_package">th.co.gosoft.sbp:drawable/</string>
+    <string name="terms_and_policies_content">
+\n1. ห้ามนำข้อมูลหรือข้อความที่มีลักษณะเป็นข้อมูลลับเฉพาะของบริษัท อาทิ เอกสาร รายงาน ข้อความและอื่นๆที่เกิดจากการสนทนาใน Application ออกไปเผยแพร่ภายนอก
+\n\n2. ห้ามนำข้อมูลหรือข้อความที่มีลักษณะไม่ถูกต้องทางลิขสิทธิ์เข้ามาในระบบ Application โดยเด็ดขาด
+\n\n3. ห้ามมิให้ผู้อื่นที่มิใช่ผู้ใช้ (USER) และรหัสผ่าน (Password) และไม่มีหน้าที่เกี่ยวข้องกับการใช้งานระบบเข้ามาในระบบ Application โดดเด็ดขาด
+\n\n4. ห้ามมิให้มีการโฆษณา ประชาสัมพันธ์ ในทางธุรกิจในลักษณะที่เป็นกิจการส่วนตัวเข้ามาสนทนาในระบบ Application โดยเด็ดขาด
+\n\n5. ห้ามนำเสนอข้อความที่ส่อไปในทางหยาบคาย ก้าวร้าว เกินกว่าที่บรรทัดฐานของสังคมจะยอมรับ
+\n\n6. ห้ามนำเสนอข้อความอันเป็นการวิพากษ์วิจารณ์หรือพาดพิงสถาบันพระมหากษัตริย์และราชวงศ์เป็นอันขาด
+\n\n7. ห้ามเสนอข้อความกล่าวโจมตี วิจารณ์ เสียดสี ด้านศาสนา หลักคำสอน ของทุกศาสนา อันอาจก่อให้เกิดความขัดแย้ง พิพาท ระหว่างองค์การ สถาบัน บุคคล และอื่นๆ
+\n\n8. ห้ามเสนอข้อความหรือเนื้อหาที่เป็นการแสดงออกในทางดูหมิ่น เหยียดหยาม หรือนำข้อมูลส่วนบุคคลมาเปิดเผย อันจะก่อให้เกิดความอับอาย เสื่อมเสียชื่อเสียง ของบุคคลอื่นที่จะก่อให้เกิดความรุนแรงและความขัดแย้งได้
+\n\n9. ห้ามเสนอข้อความหรือเนื้อหาอันเป็นสิ่งที่ผิดกฎหมายหรืศีลธรรมอันดีของสังคม
+\n\n10. ห้ามเสนอข้อความหรือเนื้อหาที่ส่อไปในทางลามก อนาจาร คุกคาม อุจาด รุนแรง โดยเด็ดขาย
+    </string>
+</resources>

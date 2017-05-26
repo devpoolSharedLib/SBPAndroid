@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/iconImage"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/rowSubject"
+        android:text="column1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="#0080ff"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iconImage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="10dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/rowDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:textColor="@color/colorDateTime"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/iconImage"
+        android:layout_alignRight="@+id/rowSubject"
+        android:layout_alignEnd="@+id/rowSubject"
+        android:gravity="bottom"
+        android:layout_alignTop="@+id/txtLikeCount" />
+
+    <TextView
+        android:id="@+id/txtLikeCount"
+        android:text="0"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#4c4c4c"
+        android:maxLines="1"
+        android:layout_alignBottom="@+id/imgLike"
+        android:layout_toRightOf="@+id/imgLike"
+        android:layout_toEndOf="@+id/imgLike"
+        android:layout_marginLeft="5dp"
+        android:gravity="bottom"
+        android:layout_alignTop="@+id/imgLike" />
+
+    <ImageView
+        android:layout_width="16sp"
+        android:layout_height="16sp"
+        app:srcCompat="@drawable/like"
+        android:id="@+id/imgLike"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitStart"
+        android:layout_alignBottom="@+id/iconImage"
+        android:layout_toRightOf="@+id/iconImage"
+        android:layout_toEndOf="@+id/iconImage" />
+
+</RelativeLayout>
