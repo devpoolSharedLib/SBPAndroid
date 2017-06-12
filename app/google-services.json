@@ -1,51 +1,27 @@
 {
   "project_info": {
-    "project_number": "181972566105",
-    "firebase_url": "https://go10login.firebaseio.com",
-    "project_id": "go10login",
-    "storage_bucket": "go10login.appspot.com"
+    "project_number": "1064657303487",
+    "firebase_url": "https://sbpnotification.firebaseio.com",
+    "project_id": "sbpnotification",
+    "storage_bucket": "sbpnotification.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:181972566105:android:e5b3eefc5546a620",
+        "mobilesdk_app_id": "1:1064657303487:android:99b3d448fefbd9bb",
         "android_client_info": {
           "package_name": "th.co.gosoft.sbp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "181972566105-3p05gkh773v6338ho1tn2k1ariodbu0m.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "th.co.gosoft.sbp",
-            "certificate_hash": "E5FBEF9861D3A14C57E68E5E08274E99E4545E1E"
-          }
-        },
-        {
-          "client_id": "181972566105-skd8jvahd6v1k8et3o2r8ihlr4ktk1m7.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "th.co.gosoft.sbp",
-            "certificate_hash": "16A3529247D03390025A20B06A5C0FDEDF2E9596"
-          }
-        },
-        {
-          "client_id": "181972566105-tpq0abcu9cgeq6vii00ssnft1qjrm0ta.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "181972566105-b7uig1b13emdmbqsbj5rt2qatppu2ckb.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "181972566105-qk02g1c2cg4urpplf4t3icj3gkh89hng.apps.googleusercontent.com",
+          "client_id": "1064657303487-n146an02rk3015dnus9innm4tdek96si.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCNtimBYPiJ3IDXuLiif4onlqdVafnBRjE"
+          "current_key": "AIzaSyAQTOQjvi9Bx4JxOR7KraoQqvZeDuG4M8M"
         }
       ],
       "services": {
@@ -53,20 +29,39 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "181972566105-nk0derd63em14gp9l2m3m2bpuusd3n55.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "th.co.gosoft.DemoFBLogin"
-              }
-            },
-            {
-              "client_id": "181972566105-tpq0abcu9cgeq6vii00ssnft1qjrm0ta.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064657303487:android:9488005eefbe4da3",
+        "android_client_info": {
+          "package_name": "manit.kannika.com.testnoficationcandelete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064657303487-n146an02rk3015dnus9innm4tdek96si.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQTOQjvi9Bx4JxOR7KraoQqvZeDuG4M8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

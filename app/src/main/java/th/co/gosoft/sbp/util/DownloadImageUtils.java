@@ -20,12 +20,12 @@ public class DownloadImageUtils {
     private Context context;
 
     public static void setImageAvatar(Context context, ImageView imageView, String imageName) {
-        String URL = PropertyUtility.getProperty("httpUrlSite", context )+"GO10WebService/DownloadServlet";
+        String URL = PropertyUtility.getProperty("httpUrlSite", context )+PropertyUtility.getProperty("contextRoot", context )+"DownloadServlet";
         getResourceFromURL(context, imageView, imageName, URL, false);
     }
 
     public static void setImageRoom(Context context, ImageView imageView, String imageName) {
-        String URL = PropertyUtility.getProperty("httpUrlSite", context )+"GO10WebService/DownloadServlet";
+        String URL = PropertyUtility.getProperty("httpUrlSite", context )+PropertyUtility.getProperty("contextRoot", context )+"DownloadServlet";
         getResourceFromURL(context, imageView, imageName, URL, true);
     }
 

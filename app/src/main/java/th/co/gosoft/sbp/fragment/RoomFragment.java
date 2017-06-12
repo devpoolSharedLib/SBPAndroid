@@ -200,13 +200,6 @@ public class RoomFragment extends Fragment {
         imageIdMap.put("rm01", R.drawable.rm01);
         imageIdMap.put("rm02", R.drawable.rm02);
         imageIdMap.put("rm03", R.drawable.rm03);
-        imageIdMap.put("rm04", R.drawable.rm04);
-        imageIdMap.put("rm05", R.drawable.rm05);
-        imageIdMap.put("rm06", R.drawable.rm06);
-        imageIdMap.put("rm07", R.drawable.rm07);
-        imageIdMap.put("rm08", R.drawable.rm08);
-        imageIdMap.put("rm09", R.drawable.rm09);
-        imageIdMap.put("rm10", R.drawable.rm10);
     }
 
     private void showLoadingDialog() {

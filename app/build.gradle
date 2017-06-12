@@ -26,8 +26,8 @@ android {
         }
     }
     
-    compileSdkVersion 23
-    buildToolsVersion '25.0.0'
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
     defaultConfig {
         applicationId "th.co.gosoft.sbp"
         minSdkVersion 15
@@ -45,15 +45,15 @@ android {
     buildTypes {
         debug {
             defaultConfig {
-                manifestPlaceholders = [onesignal_app_id: "fa8c76f3-acb7-4cae-8f89-b0b82c40b7ed",
-                                        onesignal_google_project_number: "181972566105"]
+                manifestPlaceholders = [onesignal_app_id: "a1690682-812c-4276-8a6c-85fe4e6f5e76",
+                                        onesignal_google_project_number: "REMOTE"]
             }
         }
         release {
             signingConfig signingConfigs.go10_release
             defaultConfig {
-                manifestPlaceholders = [onesignal_app_id: "dbc694b3-14cb-4e5b-9a56-f7c167572ccb",
-                                        onesignal_google_project_number: "181972566105"]
+                manifestPlaceholders = [onesignal_app_id: "615eda0f-4c69-496d-b449-2d23ccb2c2fa",
+                                        onesignal_google_project_number: "REMOTE"]
             }
         }
     }
@@ -74,37 +74,36 @@ dependencies {
     }
     compile 'org.jsoup:jsoup:1.9.2'
     compile 'com.ibm.mobilefirstplatform.clientsdk.android:facebookauthentication:2.1.0@aar'
-    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.loopj.android:android-async-http:1.4.9'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.5.0'
-    compile 'com.google.android.gms:play-services-auth:9.2.0'
-    compile 'com.android.support:design:23.4.0'
+    compile 'com.google.android.gms:play-services-auth:10.2.1'
+    compile 'com.google.android.gms:play-services-gcm:10.2.1'
+    compile "com.google.android.gms:play-services-location:10.2.1"
+    compile 'com.google.firebase:firebase-core:10.2.1'
+    compile 'com.google.firebase:firebase-messaging:10.2.1'
+    compile 'com.android.support:design:25.3.1'
     compile 'de.hdodenhof:circleimageview:2.0.0'
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'
-    compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.android.support:support-v4:25.3.1'
     compile 'mobi.parchment:parchment:1.6.9@aar'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha2'
     compile 'com.ibm.mobilefirstplatform.clientsdk.android:push:3.+'
-    compile 'com.google.firebase:firebase-analytics:9.2.0'
-    compile 'com.google.firebase:firebase-messaging:9.2.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.onesignal:OneSignal:3.+@aar'
-    compile 'com.google.android.gms:play-services-gcm:9.2.0'
-    compile "com.google.android.gms:play-services-location:9.2.0"
+    compile 'com.onesignal:OneSignal:[3.5.3,4.0.0)'
     compile 'com.android.support:multidex:1.0.1'
-    compile 'com.github.bumptech.glide:glide:3.5.2'
-    compile 'com.android.support:support-v4:23.0.0'
     compile 'jp.wasabeef:glide-transformations:2.0.1'
     compile 'jp.wasabeef:picasso-transformations:2.1.0'
     compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
-    compile 'com.android.support:support-v4:21.0.+'
     compile 'com.baoyz.pullrefreshlayout:library:1.2.0'
     compile 'androidmads.updatehandler:updatehandler:1.0.3'
+
 }
 
 configurations {
     compile.exclude group: 'javax.inject', module: 'javax.inject'
 }
+
 apply plugin: 'com.google.gms.google-services'
 
 

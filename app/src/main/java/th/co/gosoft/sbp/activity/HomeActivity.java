@@ -100,10 +100,14 @@ public class HomeActivity extends AppCompatActivity
     }
 
     private void initialOneSignal() {
+//        OneSignal.startInit(this)
+//                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.None)
+//                .init();
+//        OneSignal.setSubscription(true);
         OneSignal.startInit(this)
-                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.None)
+                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                .unsubscribeWhenNotificationsAreDisabled(true)
                 .init();
-        OneSignal.setSubscription(true);
     }
 
     @Override
