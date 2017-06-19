@@ -11,8 +11,8 @@
             android:title="Setting Avatar"
             android:checkable="false" />
         <item
-            android:id="@+id/termsAndPolicies"
-            android:title="Terms &amp; Policies"
+            android:id="@+id/about"
+            android:title="@string/about"
             android:checkable="false" />
         <item
             android:id="@+id/logout"

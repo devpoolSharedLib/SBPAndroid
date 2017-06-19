@@ -9,11 +9,11 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
     <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:name=".util.GO10Application"
@@ -24,13 +24,16 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
-        <meta-data android:name="com.onesignal.BadgeCount" android:value="DISABLE" />
+        <meta-data
+            android:name="com.onesignal.BadgeCount"
+            android:value="DISABLE" />
 
         <activity
             android:name=".activity.LoadingActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -56,9 +59,11 @@
             android:name=".activity.HomeActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="stateHidden|adjustResize" />
+
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="b0837d4ec86bbd61fee49a9961fdb35ea1490db4" />
+
         <activity
             android:name=".activity.SettingAvatar"
             android:theme="@style/AppTheme" />
@@ -79,8 +84,10 @@
         <activity
             android:name=".activity.TermsAndPoliciesActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name= "com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushNotificationHandler"
-            android:theme="@android:style/Theme.NoDisplay"/>
+        <activity
+            android:name="com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushNotificationHandler"
+            android:theme="@android:style/Theme.NoDisplay" />
+
         <service
             android:name=".util.GO10NotificationExtender"
             android:exported="false">
@@ -88,6 +95,9 @@
                 <action android:name="com.onesignal.NotificationExtender" />
             </intent-filter>
         </service>
+
+        <activity android:name=".activity.AboutActivity"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

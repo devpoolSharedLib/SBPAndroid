@@ -25,7 +25,7 @@ android {
             storePassword keystoreProperties['storePassword']
         }
     }
-    
+
     compileSdkVersion 25
     buildToolsVersion '25.0.3'
     defaultConfig {
@@ -45,14 +45,14 @@ android {
     buildTypes {
         debug {
             defaultConfig {
-                manifestPlaceholders = [onesignal_app_id: "a1690682-812c-4276-8a6c-85fe4e6f5e76",
+                manifestPlaceholders = [onesignal_app_id               : "a1690682-812c-4276-8a6c-85fe4e6f5e76",
                                         onesignal_google_project_number: "REMOTE"]
             }
         }
         release {
             signingConfig signingConfigs.go10_release
             defaultConfig {
-                manifestPlaceholders = [onesignal_app_id: "615eda0f-4c69-496d-b449-2d23ccb2c2fa",
+                manifestPlaceholders = [onesignal_app_id               : "615eda0f-4c69-496d-b449-2d23ccb2c2fa",
                                         onesignal_google_project_number: "REMOTE"]
             }
         }
@@ -68,10 +68,10 @@ repositories {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
     compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
         transitive = true;
     }
+
     compile 'org.jsoup:jsoup:1.9.2'
     compile 'com.ibm.mobilefirstplatform.clientsdk.android:facebookauthentication:2.1.0@aar'
     compile 'com.android.support:appcompat-v7:25.3.1'
@@ -79,7 +79,7 @@ dependencies {
     compile 'com.fasterxml.jackson.core:jackson-databind:2.5.0'
     compile 'com.google.android.gms:play-services-auth:10.2.1'
     compile 'com.google.android.gms:play-services-gcm:10.2.1'
-    compile "com.google.android.gms:play-services-location:10.2.1"
+    compile 'com.google.android.gms:play-services-location:10.2.1'
     compile 'com.google.firebase:firebase-core:10.2.1'
     compile 'com.google.firebase:firebase-messaging:10.2.1'
     compile 'com.android.support:design:25.3.1'
@@ -97,7 +97,7 @@ dependencies {
     compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
     compile 'com.baoyz.pullrefreshlayout:library:1.2.0'
     compile 'androidmads.updatehandler:updatehandler:1.0.3'
-
+    testCompile 'junit:junit:4.12'
 }
 
 configurations {

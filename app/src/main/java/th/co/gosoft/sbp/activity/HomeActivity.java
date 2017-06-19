@@ -183,8 +183,8 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.settingAvatar) {
             Intent intent = new Intent(HomeActivity.this, SettingAvatar.class);
             startActivity(intent);
-        } else if(id == R.id.termsAndPolicies) {
-            Intent intent = new Intent(HomeActivity.this, TermsAndPoliciesActivity.class);
+        } else if(id == R.id.about) {
+            Intent intent = new Intent(HomeActivity.this, AboutActivity.class);
             startActivity(intent);
         } else if (id == R.id.logout) {
             SharedPreferences.Editor editor = sharedPref.edit();
