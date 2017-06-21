@@ -18,7 +18,8 @@ keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 android {
     signingConfigs {
-        go10_release {
+
+        sbp_release {
             keyAlias keystoreProperties['keyAlias']
             keyPassword keystoreProperties['keyPassword']
             storeFile file(keystoreProperties['storeFile'])
@@ -50,7 +51,7 @@ android {
             }
         }
         release {
-            signingConfig signingConfigs.go10_release
+            signingConfig signingConfigs.sbp_release
             defaultConfig {
                 manifestPlaceholders = [onesignal_app_id               : "615eda0f-4c69-496d-b449-2d23ccb2c2fa",
                                         onesignal_google_project_number: "REMOTE"]
@@ -71,7 +72,6 @@ dependencies {
     compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
         transitive = true;
     }
-
     compile 'org.jsoup:jsoup:1.9.2'
     compile 'com.ibm.mobilefirstplatform.clientsdk.android:facebookauthentication:2.1.0@aar'
     compile 'com.android.support:appcompat-v7:25.3.1'

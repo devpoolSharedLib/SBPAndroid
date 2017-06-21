@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SBP</string>
+    <string name="app_name">SBP Board</string>
     <string name="host_topic">มาแข่งฟุตบอลกัน ด่วน!!!</string>
     <string name="host_username">Mario</string>
     <string name="host_date">16/03/2016 15:30:30</string>

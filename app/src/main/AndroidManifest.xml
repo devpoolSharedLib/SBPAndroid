@@ -18,7 +18,7 @@
     <application
         android:name=".util.GO10Application"
         android:allowBackup="true"
-        android:icon="@drawable/app_icon"
+        android:icon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <meta-data
