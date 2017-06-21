@@ -13,7 +13,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/app_icon"
+        app:srcCompat="@drawable/ic_launcher"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -27,7 +27,7 @@
         android:layout_marginStart="23dp"
         android:layout_marginTop="19dp"
         android:fontFamily="sans-serif"
-        android:text="GO๑๐ Application"
+        android:text="SBP Board"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:layout_alignTop="@+id/imageView"
         android:layout_toRightOf="@+id/imageView"
@@ -52,7 +52,7 @@
         android:layout_below="@+id/imageView"
         android:layout_marginTop="43dp"
         android:lineSpacingExtra="5dp"
-        android:text="GO๑๐ Application and GO๑๐ logos are trademarks of Gosoft(Thailand) Limited. All rights reserved."
+        android:text="SBP Board and SBP logos are trademarks of Gosoft(Thailand) Limited. All rights reserved."
         android:textSize="16sp" />
 
     <TextView
